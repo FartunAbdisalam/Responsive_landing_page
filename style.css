@@ -1,0 +1,48 @@
+#img{
+  width:50%;
+  padding: 30px;
+  border-radius: 35px;
+}
+@media (min-width: 768px){
+  .news-input{
+    width: 50%;
+  }
+}
+@media (max-width: 414px) {
+  #Show-case-text{
+    margin-top: 30px;
+  }
+  #Show-case-text p{
+    font-size: 16px;
+  }
+  #Show-case-text h1{
+    font-size: 24px;
+  }
+  #Show-case-button{
+    font-size: 16px;
+  }
+  #news-header{
+    padding-bottom: 10px;
+  }
+
+  #learn-section-text p{
+    font-size: 12px;
+    padding: 5px;
+    text-align: justify;
+    line-height:1.6;
+    font-weight: normal;
+  }
+  #learn-section-text h2{
+    font-size: 20px;
+  }
+  #contact i{
+    font-size:16px;
+  }
+  #contact li{
+    font-size:12px;
+  }
+
+  #footer p{
+    font-size: 16px;
+  }
+}
